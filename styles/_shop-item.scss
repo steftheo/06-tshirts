@@ -1,0 +1,21 @@
+.shop-item {
+  border: 2px solid $brand-primary;
+
+}
+
+.shop-item__btns {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin: 0;
+  list-style: none;
+}
+
+.shop-btn__dropdown {
+  &:hover {
+    background: $brand-primary;
+    color: $brand-white;
+
+  }
+  @import 'styles/dropdown';
+}
