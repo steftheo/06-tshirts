@@ -1,13 +1,6 @@
 @import 'box-sizing';
-.outer-container {
-  padding: $gutter;
-}
 
-.container {
-  max-width: $max-content-width;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
+body {
+  margin: 0;
+  font-family: sans-serif;
 }

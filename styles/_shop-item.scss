@@ -1,21 +1,29 @@
 .shop-item {
+  width: 100%;
   border: 2px solid $brand-primary;
+}
+
+.shop-item__shirt {
+  width: 100%;
+  margin: auto;
+  padding: $gutter;
+}
+
+.shop-item__info {
+  width: 100%;
+  color: $brand-primary;
+  text-align: center;
 
 }
 
 .shop-item__btns {
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
+  align-content: flex-end;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
   margin: 0;
+  padding: 0;
+  color: $brand-primary;
   list-style: none;
-}
-
-.shop-btn__dropdown {
-  &:hover {
-    background: $brand-primary;
-    color: $brand-white;
-
-  }
-  @import 'styles/dropdown';
 }
