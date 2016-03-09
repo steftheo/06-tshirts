@@ -1,8 +1,9 @@
 .dropdown__options {
   display: flex;
   position: absolute;
-  right: -5%;
+  right: -12%;
   bottom: 100%;
+  flex-direction: column;
   justify-content: center;
   width: 6rem;
   margin: 0 auto;
