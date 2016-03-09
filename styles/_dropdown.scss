@@ -1,4 +1,5 @@
 .dropdown__options {
+  display: flex;
   position: absolute;
   right: -5%;
   bottom: 100%;
@@ -9,13 +10,12 @@
 }
 
 .dropdown__options-item-shirt-color--pink {
-  padding: 0.5rem;
   display: flex;
   justify-content: center;
+  padding: 0.5rem;
   border: 2px solid $brand-primary;
   background: $brand-white;
   color: $pink;
-
 }
 
 .dropdown__options-item-shirt-color--blue {
@@ -43,4 +43,9 @@
   border: 2px solid $brand-primary;
   background: $brand-white;
   color: $green;
+}
+
+.dropdown__options-item {
+  border: 2px solid $brand-primary;
+  background: $brand-white;
 }
