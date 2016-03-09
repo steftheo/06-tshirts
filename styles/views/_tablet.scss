@@ -1,21 +1,104 @@
-// .outer-container {
-//   padding: $gutter;
-// }
-//
-// .containter {
-//   width: 100%;
-//   max-width: $max-content-width;
-//
-//   margin: 0 auto;
-// }
-//
-// .shop-item {
-//   display: flex;
-//   flex-direction: column;
-//   flex-wrap: wrap;
-// }
-//
-// .shop-item__btns {
-//   flex-direction: column;
-//   justify-content: flex-end;
-// }
+.grid-item {
+  width: 100%;
+
+  margin: 0 auto;
+}
+
+.shop-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.shop-item__shirt {
+  display: flex;
+  margin: auto;
+}
+
+.shop-item__info {
+  margin: auto;
+  text-align: center;
+}
+
+.shop-item__btns {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  width: 10rem;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.shop-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  border: 2px solid $brand-primary;
+
+}
+
+.shop-btn__dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  border: 2px solid $brand-primary;
+
+  &:hover {
+    position: relative;
+    background: $brand-primary;
+    color: $brand-white;
+
+  }
+}
+
+.dropdown__options {
+  display: flex;
+  position: absolute;
+  justify-content: flex-start;
+  width: 6rem;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.dropdown__options-item-shirt-color--pink {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  border: 2px solid $brand-primary;
+  background: $brand-white;
+  color: $pink;
+}
+
+.dropdown__options-item-shirt-color--blue {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  border: 2px solid $brand-primary;
+  background: $brand-white;
+  color: $blue;
+}
+
+.dropdown__options-item-shirt-color--yellow {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  border: 2px solid $brand-primary;
+  background: $brand-white;
+  color: $yellow;
+}
+
+.dropdown__options-item-shirt-color--green {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  border: 2px solid $brand-primary;
+  background: $brand-white;
+  color: $green;
+}
+
+.dropdown__options-item {
+  border: 2px solid $brand-primary;
+  background: $brand-white;
+}

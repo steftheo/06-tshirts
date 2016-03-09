@@ -1,19 +1,18 @@
 .shop-item {
-  display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 100%;
-  margin: 0;
+  margin: auto;
   border: 2px solid $brand-primary;
 }
 
 .shop-item__shirt {
   width: 100%;
-  margin: auto;
+  margin: 0 auto;
   padding: $gutter;
 }
 
 .shop-item__info {
-  display: flex;
   width: 100%;
   color: $brand-primary;
   text-align: center;
@@ -29,4 +28,9 @@
   padding: 0;
   color: $brand-primary;
   list-style: none;
+}
+
+
+@media (max-width: 980px) and (min-width: 640px) {
+  @import 'views/tablet';
 }
