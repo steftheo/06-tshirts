@@ -2,9 +2,8 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  padding: $gutter;
+  padding: 0.5rem;
   border: 2px solid $brand-primary;
-
 
 }
 
@@ -12,10 +11,11 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  padding: $gutter;
+  padding: 0.5rem;
   border: 2px solid $brand-primary;
 
   &:hover {
+    position: relative;
     background: $brand-primary;
     color: $brand-white;
 

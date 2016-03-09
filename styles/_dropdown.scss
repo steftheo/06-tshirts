@@ -1,20 +1,46 @@
 .dropdown__options {
-  display: none;
-  flex-direction: column-reverse;
-  border: 1px solid $brand-primary;
+  position: absolute;
+  right: -5%;
+  bottom: 100%;
+  justify-content: center;
+  width: 6rem;
+  margin: 0 auto;
   list-style: none;
-
-  &:hover {
-    display: absolute;
-    background: $brand-primary;
-    color: $brand-white;
-  }
 }
 
 .dropdown__options-item-shirt-color--pink {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  border: 2px solid $brand-primary;
+  background: $brand-white;
   color: $pink;
+
 }
 
 .dropdown__options-item-shirt-color--blue {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  border: 2px solid $brand-primary;
+  background: $brand-white;
   color: $blue;
+}
+
+.dropdown__options-item-shirt-color--yellow {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  border: 2px solid $brand-primary;
+  background: $brand-white;
+  color: $yellow;
+}
+
+.dropdown__options-item-shirt-color--green {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  border: 2px solid $brand-primary;
+  background: $brand-white;
+  color: $green;
 }

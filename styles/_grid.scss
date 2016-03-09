@@ -17,5 +17,6 @@
 .grid-item {
   flex-grow: 1;
   width: calc(100% / 3 - #{$gutter} - #{$gutter});
+  min-width: 15rem;
   padding: $gutter;
 }

@@ -1,5 +1,6 @@
 .shop-item {
   width: 100%;
+  margin: 0;
   border: 2px solid $brand-primary;
 }
 
@@ -19,7 +20,6 @@
 .shop-item__btns {
   display: flex;
   align-content: flex-end;
-  align-items: stretch;
   justify-content: center;
   width: 100%;
   margin: 0;
