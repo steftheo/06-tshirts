@@ -8,3 +8,7 @@
 @import 'shop-item';
 @import 'shop-btn';
 @import 'dropdown';
+
+@media (max-width: 800px) {
+  @import 'views/tablet';
+}
