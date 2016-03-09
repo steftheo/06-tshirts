@@ -1,7 +1,7 @@
 .dropdown__options {
   display: flex;
   position: absolute;
-  right: -12%;
+  right: -3.5%;
   bottom: 100%;
   flex-direction: column;
   justify-content: center;
@@ -47,6 +47,11 @@
 }
 
 .dropdown__options-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
   border: 2px solid $brand-primary;
   background: $brand-white;
+  color: $brand-primary;
 }
