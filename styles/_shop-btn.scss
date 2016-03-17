@@ -11,21 +11,3 @@
     border-right: none;
   }
 }
-
-.shop-btn__dropdown {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  padding: 0.5rem;
-  border-top: 2px solid $brand-primary;
-  border-right: 2px solid $brand-primary;
-  border-bottom: 2px solid $brand-primary;
-
-  &:hover {
-    position: relative;
-    background: $brand-primary;
-    color: $brand-white;
-
-  }
-
-}
