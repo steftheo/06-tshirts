@@ -1,0 +1,38 @@
+.shop-item {
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  border-top: 2px solid $brand-primary;
+  border-left: 2px solid $brand-primary;
+  border-right: 2px solid $brand-primary;
+}
+
+.shop-item__shirt {
+  width: 100%;
+  margin: 0 auto;
+  padding: $gutter;
+}
+
+.shop-item__info {
+  width: 100%;
+  color: $brand-primary;
+  text-align: center;
+
+}
+
+.shop-item__btns {
+  display: flex;
+  align-content: flex-end;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: $brand-primary;
+  list-style: none;
+}
+
+
+@media (max-width: 980px) and (min-width: 640px) {
+  @import 'views/tablet';
+}
